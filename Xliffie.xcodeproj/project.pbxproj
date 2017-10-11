@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16944ED79FF3BC82F844375D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 707697586225A7F3BE9B50CC /* libPods.a */; };
+		2B41E876FB4B9CAB5445FFBD /* libPods-Xliffie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6979B678FB3DDF351D6A8BED /* libPods-Xliffie.a */; };
 		CF011B4B1C40FCBA00948323 /* TranslationUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = CF011B4A1C40FCBA00948323 /* TranslationUtility.m */; };
 		CF011B7D1C4641A400948323 /* TranslationWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF011B7B1C4641A400948323 /* TranslationWindowController.m */; };
 		CF0945911C54FD3600DAEB4A /* BRArrowSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0945901C54FD3600DAEB4A /* BRArrowSegmentedCell.m */; };
@@ -36,6 +36,7 @@
 		CFE39FA11A767252004644C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFE39FA31A767252004644C8 /* InfoPlist.strings */; };
 		CFE39FA61A767253004644C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFE39FA81A767253004644C8 /* InfoPlist.strings */; };
 		CFE3B1761CD800AB00021D7F /* NSString+Pangu.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE3B1751CD800AB00021D7F /* NSString+Pangu.m */; };
+		F4F7FB4903CA4858223ED395 /* libPods-XliffieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28C58D1E9500F83E318AD86 /* libPods-XliffieTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30D4ECEB71F668BEB4303642 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		707697586225A7F3BE9B50CC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A023F907004D396B2FE662AC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6979B678FB3DDF351D6A8BED /* libPods-Xliffie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Xliffie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		697AA1A450CE727C08BC978D /* Pods-Xliffie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xliffie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Xliffie/Pods-Xliffie.debug.xcconfig"; sourceTree = "<group>"; };
+		935827B2EC1D2FE7C96796C2 /* Pods-XliffieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XliffieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XliffieTests/Pods-XliffieTests.release.xcconfig"; sourceTree = "<group>"; };
 		CF011B481C40F4B900948323 /* APIKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKeys.h; sourceTree = "<group>"; };
 		CF011B491C40FCBA00948323 /* TranslationUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslationUtility.h; sourceTree = "<group>"; };
 		CF011B4A1C40FCBA00948323 /* TranslationUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslationUtility.m; sourceTree = "<group>"; };
@@ -75,7 +76,7 @@
 		CF5682E91A6AFB9800E0DEDD /* DocumentWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentWindowController.m; sourceTree = "<group>"; };
 		CF5682ED1A6B11C700E0DEDD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		CF5682EE1A6B11C700E0DEDD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		CF5FC88C1A5ABFF700538E60 /* Xliffie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xliffie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5FC88C1A5ABFF700538E60 /* Xliffie++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xliffie++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5FC8901A5ABFF700538E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF5FC8911A5ABFF700538E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF5FC8921A5ABFF700538E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,6 +115,9 @@
 		CFE39FA71A767253004644C8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFE3B1741CD800AB00021D7F /* NSString+Pangu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Pangu.h"; sourceTree = "<group>"; };
 		CFE3B1751CD800AB00021D7F /* NSString+Pangu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Pangu.m"; sourceTree = "<group>"; };
+		D28C58D1E9500F83E318AD86 /* libPods-XliffieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XliffieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AD77DA126C1D445E77DB5A /* Pods-XliffieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XliffieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XliffieTests/Pods-XliffieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E423FA61EBD61ABC134C342D /* Pods-Xliffie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xliffie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Xliffie/Pods-Xliffie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16944ED79FF3BC82F844375D /* libPods.a in Frameworks */,
+				2B41E876FB4B9CAB5445FFBD /* libPods-Xliffie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,25 +133,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F7FB4903CA4858223ED395 /* libPods-XliffieTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1969AEECA5254EC12188BD09 /* Pods */ = {
+		1D5873FF61422010217D1981 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				30D4ECEB71F668BEB4303642 /* Pods.debug.xcconfig */,
-				A023F907004D396B2FE662AC /* Pods.release.xcconfig */,
+				697AA1A450CE727C08BC978D /* Pods-Xliffie.debug.xcconfig */,
+				E423FA61EBD61ABC134C342D /* Pods-Xliffie.release.xcconfig */,
+				D7AD77DA126C1D445E77DB5A /* Pods-XliffieTests.debug.xcconfig */,
+				935827B2EC1D2FE7C96796C2 /* Pods-XliffieTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C70BABB6F649FA54D9F3427F /* Frameworks */ = {
+		C7CDB871C93DEF55FB6B7FCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				707697586225A7F3BE9B50CC /* libPods.a */,
+				6979B678FB3DDF351D6A8BED /* libPods-Xliffie.a */,
+				D28C58D1E9500F83E318AD86 /* libPods-XliffieTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,15 +192,15 @@
 				CF5FC88E1A5ABFF700538E60 /* Xliffie */,
 				CF5FC8A81A5ABFF700538E60 /* XliffieTests */,
 				CF5FC88D1A5ABFF700538E60 /* Products */,
-				1969AEECA5254EC12188BD09 /* Pods */,
-				C70BABB6F649FA54D9F3427F /* Frameworks */,
+				1D5873FF61422010217D1981 /* Pods */,
+				C7CDB871C93DEF55FB6B7FCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CF5FC88D1A5ABFF700538E60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CF5FC88C1A5ABFF700538E60 /* Xliffie.app */,
+				CF5FC88C1A5ABFF700538E60 /* Xliffie++.app */,
 				CF5FC8A51A5ABFF700538E60 /* XliffieTests.xctest */,
 			);
 			name = Products;
@@ -287,34 +295,37 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CF5FC88B1A5ABFF700538E60 /* Xliffie */ = {
+		CF5FC88B1A5ABFF700538E60 /* Xliffie++ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CF5FC8AF1A5ABFF700538E60 /* Build configuration list for PBXNativeTarget "Xliffie" */;
+			buildConfigurationList = CF5FC8AF1A5ABFF700538E60 /* Build configuration list for PBXNativeTarget "Xliffie++" */;
 			buildPhases = (
-				E94941DA04EC4071B342E029 /* Check Pods Manifest.lock */,
+				39BB8CE32A877069D1DDD3CB /* [CP] Check Pods Manifest.lock */,
 				CF5FC8881A5ABFF700538E60 /* Sources */,
 				CF5FC8891A5ABFF700538E60 /* Frameworks */,
 				CF5FC88A1A5ABFF700538E60 /* Resources */,
-				E1E1F7600DAE40E10AA15147 /* Embed Pods Frameworks */,
-				8F2C2B40EB556F5BC6AB004C /* Copy Pods Resources */,
 				CFE39FDB1A7690E9004644C8 /* ShellScript */,
+				D96B12D41AB3C42BE75D2B8D /* [CP] Embed Pods Frameworks */,
+				57A88F257DE823B1160C8D28 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Xliffie;
+			name = "Xliffie++";
 			productName = Xliffie;
-			productReference = CF5FC88C1A5ABFF700538E60 /* Xliffie.app */;
+			productReference = CF5FC88C1A5ABFF700538E60 /* Xliffie++.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CF5FC8A41A5ABFF700538E60 /* XliffieTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF5FC8B21A5ABFF700538E60 /* Build configuration list for PBXNativeTarget "XliffieTests" */;
 			buildPhases = (
+				80B0EE1CD8C5454C6EF71341 /* [CP] Check Pods Manifest.lock */,
 				CF5FC8A11A5ABFF700538E60 /* Sources */,
 				CF5FC8A21A5ABFF700538E60 /* Frameworks */,
 				CF5FC8A31A5ABFF700538E60 /* Resources */,
+				00812D9DBD3A9D9383B0E8DF /* [CP] Embed Pods Frameworks */,
+				CE3ABDA738004B9FE607FA5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,12 +344,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = b123400;
 				TargetAttributes = {
 					CF5FC88B1A5ABFF700538E60 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = CC63FD9H8S;
+						DevelopmentTeam = U6Q7347D4Q;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -366,7 +378,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF5FC88B1A5ABFF700538E60 /* Xliffie */,
+				CF5FC88B1A5ABFF700538E60 /* Xliffie++ */,
 				CF5FC8A41A5ABFF700538E60 /* XliffieTests */,
 			);
 		};
@@ -398,19 +410,93 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8F2C2B40EB556F5BC6AB004C /* Copy Pods Resources */ = {
+		00812D9DBD3A9D9383B0E8DF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XliffieTests/Pods-XliffieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39BB8CE32A877069D1DDD3CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xliffie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A88F257DE823B1160C8D28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Xliffie/Pods-Xliffie-resources.sh",
+				"${PODS_ROOT}/BRLocaleMap/locale-mapping/google-translate.json",
+				"${PODS_ROOT}/BRLocaleMap/locale-mapping/microsoft-translate.json",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xliffie/Pods-Xliffie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80B0EE1CD8C5454C6EF71341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XliffieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE3ABDA738004B9FE607FA5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XliffieTests/Pods-XliffieTests-resources.sh",
+				"${PODS_ROOT}/BRLocaleMap/locale-mapping/google-translate.json",
+				"${PODS_ROOT}/BRLocaleMap/locale-mapping/microsoft-translate.json",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XliffieTests/Pods-XliffieTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CFE39FDB1A7690E9004644C8 /* ShellScript */ = {
@@ -426,34 +512,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" be3de76eb1918a93b4d68a8e87b983750d738aed 14ee308c3c10a8baa8cccc093c1c4c9c00d34c8c4b0b69aa8e7aa5dd0dae61c0";
 		};
-		E1E1F7600DAE40E10AA15147 /* Embed Pods Frameworks */ = {
+		D96B12D41AB3C42BE75D2B8D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E94941DA04EC4071B342E029 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Xliffie/Pods-Xliffie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -498,7 +569,7 @@
 /* Begin PBXTargetDependency section */
 		CF5FC8A71A5ABFF700538E60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CF5FC88B1A5ABFF700538E60 /* Xliffie */;
+			target = CF5FC88B1A5ABFF700538E60 /* Xliffie++ */;
 			targetProxy = CF5FC8A61A5ABFF700538E60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -569,25 +640,36 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -611,17 +693,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -630,6 +721,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -644,20 +736,24 @@
 		};
 		CF5FC8B01A5ABFF700538E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30D4ECEB71F668BEB4303642 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 697AA1A450CE727C08BC978D /* Pods-Xliffie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Xliffie/Xliffie.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U6Q7347D4Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Xliffie",
 				);
 				INFOPLIST_FILE = Xliffie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nstweak.xliffie-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Xliffie/Xliffie-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -665,27 +761,32 @@
 		};
 		CF5FC8B11A5ABFF700538E60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A023F907004D396B2FE662AC /* Pods.release.xcconfig */;
+			baseConfigurationReference = E423FA61EBD61ABC134C342D /* Pods-Xliffie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Xliffie/Xliffie.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: KC Chan Co. (CC63FD9H8S)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = U6Q7347D4Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Xliffie",
 				);
 				INFOPLIST_FILE = Xliffie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.nstweak.xliffie-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7752aa72-3465-4cd3-ac4b-ce6360feed02";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Xliffie/Xliffie-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		CF5FC8B31A5ABFF700538E60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AD77DA126C1D445E77DB5A /* Pods-XliffieTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -699,6 +800,7 @@
 				);
 				INFOPLIST_FILE = XliffieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.b123400.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xliffie.app/Contents/MacOS/Xliffie";
 			};
@@ -706,6 +808,7 @@
 		};
 		CF5FC8B41A5ABFF700538E60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935827B2EC1D2FE7C96796C2 /* Pods-XliffieTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -715,6 +818,7 @@
 				);
 				INFOPLIST_FILE = XliffieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.b123400.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xliffie.app/Contents/MacOS/Xliffie";
 			};
@@ -732,7 +836,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CF5FC8AF1A5ABFF700538E60 /* Build configuration list for PBXNativeTarget "Xliffie" */ = {
+		CF5FC8AF1A5ABFF700538E60 /* Build configuration list for PBXNativeTarget "Xliffie++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF5FC8B01A5ABFF700538E60 /* Debug */,
